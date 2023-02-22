@@ -7,7 +7,6 @@ on:
 jobs:
   start:
     runs-on: ubuntu-latest
-    container: node:16.16.0
     steps:
       - uses: actions/checkout@v2
       - name: Set up JDK 1.8

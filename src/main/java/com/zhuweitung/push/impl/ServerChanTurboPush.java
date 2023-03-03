@@ -18,7 +18,7 @@ public class ServerChanTurboPush extends AbstractPush {
 
     @Override
     protected String generatePushUrl(PushMetaInfo metaInfo) {
-        return OtherApi.SERVERPUSHV2.getUrl() + metaInfo.getToken() + ".send";
+        return OtherApi.SERVERPUSHV2.getUrl() + metaInfo.getToken() + ".send?channel=9";
     }
 
     @Override

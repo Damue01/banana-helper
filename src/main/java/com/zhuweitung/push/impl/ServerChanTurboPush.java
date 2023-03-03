@@ -47,6 +47,6 @@ public class ServerChanTurboPush extends AbstractPush {
 
     @Override
     protected String generatePushBody(PushMetaInfo metaInfo, String content) {
-        return "title=banana-helper任务简报&desp=" + content;
+        return "title=AcFun每日打卡&desp=" + content;
     }
 }
